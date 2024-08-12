@@ -13,11 +13,16 @@ h1, p {
   text-align: center;
 }
 
-form{
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
   margin: 0 auto;
-  max-width:500px;
-  min-width:300px;
-  width:60vw
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
 }
 
 label {
